@@ -1,0 +1,16 @@
+2
+A(Bob,John)
+A(Alice,Tom)
+8
+B(x,y) ^ C(x,John) => A(y,John)
+B(x,Alice) ^ C(Tom,x) => A(Alice,Tom)
+A(x,Tom) => B(x,Bob)
+A(x,Alice) => B(x,Alice)
+D(x) => C(Alice,x)
+B(Alice,Tom)
+A(Jim,Alice)
+D(Alice)
+
+Output:
+FALSE
+FALSE

@@ -1,0 +1,8 @@
+1
+C(Bob)
+3
+A(x,y) => B(z)
+B(x) => C(y)
+A(Bob,Alice)
+
+Output:TRUE

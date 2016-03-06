@@ -1,0 +1,21 @@
+4
+Professor(Kirke,Charlie)
+Professor(Kirke,Olivia)
+Professor(Kirke,Kirke)
+Studies(Charlie,Csc135)
+9
+Studies(Charlie,Csc135)
+Studies(Olivia,Csc135)
+Studies(Jack,Csc131)
+Studies(Arthur,Csc134)
+Teaches(Kirke,Csc135)
+Teaches(Collins,Csc131)
+Teaches(Collins,Csc171)
+Teaches(Juniper,Csc134)
+Teaches(x,c) ^ Studies(y,c) => Professor(x,y)
+
+Output:
+TRUE
+TRUE
+FALSE
+TRUE

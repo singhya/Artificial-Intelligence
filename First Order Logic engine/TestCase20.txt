@@ -1,0 +1,49 @@
+12
+Parent(Susan,Mary)
+Parent(Ray,Peter)
+Yeye(X,Susan)
+Mama(Amy,X)
+Mama(Amy,Peter)
+Mama(Amy,Mary)
+Gunggung(X,Y)
+Gunggung(Jack,Peter)
+Gunggung(Jack,Mary)
+Father(John,Mary)
+Mother(Susan,Mary)
+Father(John,Susan)
+21
+Father(Jack,Susan)
+Father(Jack,Ray)
+Father(David,Liza)
+Father(David,John)
+Father(John,Peter)
+Father(John,Mary)
+Mother(Karen,Susan)
+Mother(Karen,Ray)
+Mother(Amy,Liza)
+Mother(Amy,John)
+Mother(Susan,Peter)
+Mother(Susan,Mary)
+Father(x,y) => Parent(x,y)
+Mother(x,y) => Parent(x,y)
+Father(x,z) ^ Parent(z,y) => GrandFather(x,y)
+Mother(x,z) ^ Parent(z,y) => GrandMother(x,y)
+Parent(x,z) ^ Parent(z,y) => GrandParent(x,y)
+Father(x,z) ^ Father(z,y) => yeye(x,y)
+Mother(x,z) ^ Father(z,y) => Mama(x,y)
+Father(x,z) ^ Mother(z,y) => Gunggung(x,y)
+Mother(x,z) ^ Mother(z,y) => Popo(x,y)
+
+Output:
+TRUE
+FALSE
+FALSE
+FALSE
+TRUE
+TRUE
+FALSE
+TRUE
+TRUE
+TRUE
+TRUE
+FALSE

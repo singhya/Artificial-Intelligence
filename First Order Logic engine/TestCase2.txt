@@ -1,0 +1,9 @@
+1
+B(Ram)
+4
+A(x,y,z) ^ C(x,y,z) => B(x)
+A(Ram,Alice,Bob)
+C(Ram,Alice,Stu)
+A(Ram,Ken,Stu)
+
+Output:FALSE

@@ -1,0 +1,118 @@
+1
+C(Gill)
+5
+A(x,y,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(x,y) => A(p,p,p,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+1
+C(Gill)
+5
+A(x,y,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(p,q) => A(p,p,p,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+1
+C(Gill)
+5
+A(x,y,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(p,q) => A(p,p,p,q) 
+D(Tom)
+E(Ram,Ram)
+B(John,Carl)
+Output:FALSE
+
+1
+C(Gill)
+5
+A(x,Tom,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(x,y) => A(p,p,p,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+1
+C(Gill)
+5
+A(x,Tom,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(x,y) => A(p,Sam,p,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:TRUE
+
+1
+C(Gill)
+5
+A(x,Tom,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(x,y) => A(p,r,s,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:TRUE
+
+1
+C(Gill)
+5
+A(x,Tom,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(s,y) => A(p,r,s,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+1
+F(Kemp)
+6
+C(x,x) => F(z)
+A(x,Tom,x,y) ^ B(x,y) => C(x,y)
+D(z) ^ E(s,y) => A(p,r,s,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+1
+F(Kemp)
+7
+C(x,x) => F(z)
+A(x,Tom,x,y) ^ B(x,y) => C(x,y)
+D(z) ^ E(s,y) => A(p,r,s,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+C(Sam,Natalie)
+Output:FALSE
+
+1
+F(Kemp)
+8
+C(x,x) => F(z)
+A(x,Tom,x,y) ^ B(x,y) => C(x,y)
+D(z) ^ E(s,y) => A(p,r,s,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+C(Sam,Natalie)
+B(Ram,Ram)
+Output:TRUE
+
+
+1
+C(Gill)
+5
+A(x,Tom,x,y) ^ B(x,y) => C(z)
+D(z) ^ E(x,y) => A(p,r,Sam,q) 
+D(Tom)
+E(Ram,Sham)
+B(John,Carl)
+Output:FALSE
+
+

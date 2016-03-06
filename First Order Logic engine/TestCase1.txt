@@ -1,0 +1,6 @@
+1
+A(Ysgdsfb,Ydfs,YsddSds,YadgDS,Yagdf,Yadgg,Yagd,Ysgd,Ysdfs)
+1
+A(Ysgdsfb,Ydfs,YsddSds,YadgDS,Yagdf,Yadgg,Yagd,Ysgd,Ysdfs)
+
+Output:TRUE

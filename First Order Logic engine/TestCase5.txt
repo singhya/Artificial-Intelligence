@@ -1,0 +1,10 @@
+1
+Fly(C)
+5
+Fly(x) ^ Friend(x,y) => Fly(y)
+Parent(x,y) ^ Hero(y) => Fly(x)
+Hero(A)
+Parent(B,A)
+Friend(B,C)
+
+Output:FALSE

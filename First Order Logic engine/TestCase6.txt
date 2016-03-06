@@ -1,0 +1,7 @@
+1
+C(Alice,Bob)
+2
+A(x) => C(x,Tom)
+A(Alice)
+
+Output : FALSE

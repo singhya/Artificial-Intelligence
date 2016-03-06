@@ -1,0 +1,154 @@
+1
+P(Bob,Bob)
+3
+P(q,r) => P(x,y)
+A(x) => P(x,x)
+A(Bob)
+Output:TRUE
+
+
+1
+C(CC)
+5
+A(x,AA,y,CC,w) ^ B(John) ^ D(x,w) => C(CC)
+E(XX) => A(a,b,c,CC,a)
+E(XX)
+B(John)
+D(XX,XY)
+Output:FALSE
+
+1
+C(CC)
+5
+A(x,AA,y,CC,w) ^ B(John) ^ D(x,w) => C(CC)
+E(XX) => A(a,b,c,CC,a)
+E(XX)
+B(John)
+D(XX,XX)
+Output:TRUE
+
+1
+F(Q)
+6
+A(x,y) ^ B(y,z) ^ C(x,y,z) => F(p)
+D(X) => A(x,x)
+E(Y) => B(y,y)
+D(X)
+E(Y)
+C(A,B,C)
+Output:FALSE
+
+1
+F(Q)
+6
+A(p,q) ^ B(q,r) ^ C(p,q,r) => F(s)
+D(X) => A(x,x)
+E(Y) => B(y,y)
+D(X)
+E(Y)
+C(A,B,C)
+Output:FALSE
+
+1
+C(L)
+5
+A(x,y) ^ B(x,y) => C(z)
+D(p,q) => A(r,s)
+E(P)=> D(t,t)
+E(P)
+B(R,T)
+Output:TRUE
+
+1
+C(L)
+5
+A(x,y) ^ B(x,y) => C(z)
+D(p,q) => A(p,q)
+E(P)=> D(t,t)
+E(P)
+B(R,T)
+Output:FALSE
+
+1
+C(T)
+4
+A(x,y,x,y) ^ B(x,y) => C(z)
+D(Z) => A(p,p,p,q)
+D(Z)
+B(X,Y)
+Output:FALSE
+
+1
+C(T)
+4
+A(x,y,x,y) ^ B(x,y) => C(z)
+D(Z) => A(x,x,x,y)
+D(Z)
+B(X,Y)
+Output:FALSE
+
+1
+Sibling(John,Frodo)
+3
+Father(x,y) => Parent(x,y)
+Parent(a,b) ^ Parent(c,d) => Sibling(p,w)
+Father(Shawn,John)
+Output : TRUE
+
+1
+B(Bob)
+3
+A(x) ^ A(x) => B(y)
+A(Tom) ^ A(Tom) => B(y)
+A(Tom)
+Output:TRUE
+
+1
+P(David)
+3
+A(x,y) ^ B(x,y) => P(z)
+B(S) => A(x,x)
+B(Bob,Tom)
+Output:FALSE
+
+1
+A(Nick)
+5
+G(x,x) ^ M(y) => A(y)
+M(Nick)
+N(y) => G(y,John)
+N(Brick)
+G(Brick,John)
+Output:FALSE
+
+1
+A(Nick)
+6
+G(x,x) ^ M(y) => A(y)
+M(Nick)
+N(y) => G(y,John)
+N(Brick)
+N(John)
+G(Brick,John)
+Output:TRUE
+
+3
+Uncle(John,Sarah)
+Sibling(John,Sarah)
+Sibling(John,Neelu)
+10
+Male(x) ^ Parent(m,z) ^ Sibling(x,m) => Uncle(x,z)
+Father(x,y) => Parent(x,y)
+Mother(x,y) => Parent(x,y)
+Parent(x,p) ^ Parent(x,w) ^ Parent(a,b) ^ Parent(c,d) => Sibling(p,w)
+Male(John)
+Father(Shawn,John)
+Father(Suresh,Ramesh)
+Mother(Kill,Bill)
+Mother(Neelu,Sarah)
+Father(Shawn,Neelu)
+Output:
+TRUE
+FALSE
+TRUE
+

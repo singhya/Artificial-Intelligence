@@ -1,0 +1,36 @@
+1
+G(Multiply)
+4
+F(x,y,x) ^ R(z) => G(z)
+A(x,y,z) => F(x,y,z)
+A(Add,Sub,Multiply)
+R(Multiply)
+Output:FALSE
+
+1
+G(Multiply)
+4
+F(x,y,z) ^ R(z) => G(z)
+A(x,y,z) => F(x,y,x)
+A(Add,Sub,Multiply)
+R(Multiply)
+Output: FALSE
+
+1
+G(Multiply)
+4
+F(x,y,z) ^ R(z) => G(z)
+A(x,y,z) => F(z,y,z)
+A(Add,Sub,Multiply)
+R(Multiply)
+Ouptpu:TRUE
+
+
+1
+A(John,Bob)
+4
+F(x,y,x) => A(x,y)
+P(x,y) ^ Q(z) => F(x,y,z)
+P(John,Bob)
+Q(John)
+Output:TRUE

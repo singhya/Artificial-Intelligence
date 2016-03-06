@@ -1,0 +1,10 @@
+1
+A(Bob,John)
+5
+B(x,y) ^ C(x,John) => A(y,John)
+A(x,Tom) => B(x,Bob)
+D(x) => C(Alice,x)
+A(Alice,Tom)
+D(Alice)
+
+Output:FALSE

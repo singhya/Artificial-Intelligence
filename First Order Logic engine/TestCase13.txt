@@ -1,0 +1,26 @@
+1
+C(Bob)
+4
+B(x,y,z) ^ D(y) => C(x)
+A(x) => B(x,y,z)
+A(Bob)
+D(Alice)
+Output:TRUE
+
+1
+C(Bob)
+3
+B(x,y,z) ^ D(y) => C(x)
+A(x,y) => B(x,y,z)
+A(Bob,John)
+D(Alice)
+Outpur:FALSE
+
+1
+C(Bob)
+3
+B(x,y,z) ^ D(y) => C(x)
+A(x,y,z) => B(x,y,z)
+A(Bob,John,Alice)
+Output:FALSE
+

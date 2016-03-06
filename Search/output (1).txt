@@ -1,0 +1,22 @@
+B 4
+None
+Q 8
+None
+BA 10
+BA 6
+None
+B 1
+G 2
+None
+D 6
+D 6
+G 2
+None
+G 2
+S 23
+D 4
+B 1
+D 5
+B 17
+G 4
+None

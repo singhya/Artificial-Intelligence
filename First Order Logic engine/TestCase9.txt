@@ -1,0 +1,12 @@
+1
+E(Sid)
+7
+B(x,Alice) ^ D(x,y) => E(y)
+A(x) => B(x,y)
+C(x) => B(x,y)
+B(John,Alice)
+B(Bob,Alice)
+C(Rohn)
+D(Rohn,Sid)
+
+output:TRUE
