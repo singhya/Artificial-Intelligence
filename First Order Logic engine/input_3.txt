@@ -1,6 +1,0 @@
-1
-B(Tim)
-3
-A(x,y) => B(x)
-C(x) => A(x,Alice)
-C(Tim)
